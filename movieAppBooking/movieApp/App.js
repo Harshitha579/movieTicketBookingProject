@@ -9,6 +9,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 
 const Drawer = createDrawerNavigator();
 export default function App() {
+  LogBox.ignoreAllLogs()
   return (
     <NavigationContainer>
       <Stack/>
